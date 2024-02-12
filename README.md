@@ -24,7 +24,7 @@ Usage
 1. Register a user by sending a POST request to /register_user with a unique username in the request body.
 2. Create a new encrypted file by sending a POST request to /create_file with the content in the request body. The file will be encrypted using the user's public key.
 3. Share a file with another user by sending a POST request to /create_file/:fileId/share with the recipient's username in the request body.
-4. Retrieve shared files by sending a GET request to /files. Files will be decrypted using the recipient's private key.
+4. Retrieve shared files by sending a GET request to /files. Files will be decrypted using the creator's private key.
 
 Technologies Used
 
