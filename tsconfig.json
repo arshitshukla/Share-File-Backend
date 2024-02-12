@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",  // Output directory for compiled JavaScript files
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
